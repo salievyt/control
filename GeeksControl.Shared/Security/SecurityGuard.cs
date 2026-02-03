@@ -1,4 +1,7 @@
+using System;
+#if WINDOWS
 using System.Security.Principal;
+#endif
 
 namespace GeeksControl.Shared.Security;
 
@@ -6,13 +9,14 @@ public static class SecurityGuard
 {
     public static void EnsureSystem()
     {
-#pragma warning disable CA1416 // Validate platform compatibility
-#pragma warning disable CA1416 // Validate platform compatibility
+#if WINDOWS
         if (!WindowsIdentity.GetCurrent().IsSystem)
         {
             Environment.FailFast("Agent tampering detected");
         }
-#pragma warning restore CA1416 // Validate platform compatibility
-#pragma warning restore CA1416 // Validate platform compatibility
+#else
+        // На Mac просто пропускаем проверку
+        Console.WriteLine("SecurityGuard skipped (non-Windows platform)");
+#endif
     }
 }

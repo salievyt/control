@@ -1,4 +1,12 @@
 namespace GeeksControl.Admin.ConsoleUI;
+using System;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+using GeeksControl.Shared.Network;
 
 public static class AdminConsole
 {

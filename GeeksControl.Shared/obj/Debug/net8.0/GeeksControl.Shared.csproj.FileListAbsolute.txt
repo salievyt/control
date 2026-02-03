@@ -1,0 +1,10 @@
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/bin/Debug/net8.0/GeeksControl.Shared.deps.json
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/bin/Debug/net8.0/GeeksControl.Shared.dll
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/bin/Debug/net8.0/GeeksControl.Shared.pdb
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/obj/Debug/net8.0/GeeksControl.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/obj/Debug/net8.0/GeeksControl.Shared.csproj.CoreCompileInputs.cache
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/obj/Debug/net8.0/GeeksControl.Shared.sourcelink.json
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/obj/Debug/net8.0/GeeksControl.Shared.dll
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/obj/Debug/net8.0/refint/GeeksControl.Shared.dll
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/obj/Debug/net8.0/GeeksControl.Shared.pdb
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Shared/obj/Debug/net8.0/ref/GeeksControl.Shared.dll
