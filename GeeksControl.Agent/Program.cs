@@ -1,7 +1,8 @@
 ﻿using System.ServiceProcess;
-using GeeksControl.User.Network;
+using GeeksControl.User.Service;
 using GeeksControl.Shared.Auth;
 using GeeksControl.Shared.Security;
+using GeeksControl.User.Network;
 
 if (Environment.UserInteractive)
 {
@@ -13,5 +14,5 @@ if (Environment.UserInteractive)
 }
 else
 {
-    ServiceBase.Run(new GeeksControl.User.Service.UserAgentService());
+    ServiceBase.Run(new UserAgentService());
 }
