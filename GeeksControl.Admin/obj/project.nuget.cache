@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "P3aMMk24DQ8=",
+  "dgSpecHash": "yuJYPFGUE3c=",
   "success": true,
   "projectFilePath": "/Users/m1/Geeks/geeks-control/root/GeeksControl.Admin/GeeksControl.Admin.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/m1/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/m1/.nuget/packages/microsoft.netcore.app.runtime.win-arm64/8.0.22/microsoft.netcore.app.runtime.win-arm64.8.0.22.nupkg.sha512",
+    "/Users/m1/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/m1/.nuget/packages/microsoft.aspnetcore.app.runtime.win-arm64/8.0.22/microsoft.aspnetcore.app.runtime.win-arm64.8.0.22.nupkg.sha512",
+    "/Users/m1/.nuget/packages/microsoft.netcore.app.host.win-arm64/8.0.22/microsoft.netcore.app.host.win-arm64.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,7 @@
+{
+  "allowed": [
+    "google.com",
+    "github.com",
+    "stackoverflow.com"
+  ]
+}
