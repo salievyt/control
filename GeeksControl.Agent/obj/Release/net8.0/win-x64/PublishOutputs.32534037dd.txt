@@ -1,0 +1,2 @@
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Agent/bin/Release/net8.0/win-x64/publish/GeeksControl.Agent.pdb
+/Users/m1/Geeks/geeks-control/root/GeeksControl.Agent/bin/Release/net8.0/win-x64/publish/GeeksControl.Agent.exe

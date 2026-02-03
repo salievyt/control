@@ -1,0 +1,6 @@
+{
+  "AdminHost": "26.17.156.234",
+  "AdminPort": 5050,
+  "ReconnectDelaySeconds": 5,
+  "ConnectTimeoutSeconds": 3
+}

@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "rtYa0t9X/tA=",
+  "dgSpecHash": "Rp8YoakZGuA=",
   "success": true,
   "projectFilePath": "/Users/m1/Geeks/geeks-control/root/GeeksControl.Agent/GeeksControl.Agent.csproj",
   "expectedPackageFiles": [
+    "/Users/m1/.nuget/packages/microsoft.net.illink.tasks/8.0.22/microsoft.net.illink.tasks.8.0.22.nupkg.sha512",
     "/Users/m1/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/m1/.nuget/packages/microsoft.netcore.app.runtime.win-x64/8.0.22/microsoft.netcore.app.runtime.win-x64.8.0.22.nupkg.sha512",
     "/Users/m1/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/m1/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
+    "/Users/m1/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/8.0.22/microsoft.aspnetcore.app.runtime.win-x64.8.0.22.nupkg.sha512",
+    "/Users/m1/.nuget/packages/microsoft.netcore.app.host.win-x64/8.0.22/microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }
