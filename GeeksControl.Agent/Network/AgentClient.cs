@@ -1,12 +1,20 @@
-using System.Net.Sockets;
+namespace GeeksControl.Agent.Network{
+using System;
+using System.IO;                // StreamReader, StreamWriter
+using System.Net.Sockets;       // TcpClient
 using System.Text;
 using System.Text.Json;
-using GeeksControl.Shared.Network;
-using GeeksControl.Shared.Device;
-using GeeksControl.Shared.Auth;
-using GeeksControl.User.SystemControl;
+using System.Threading.Tasks;    // Task
 
-namespace GeeksControl.User.Network;
+// Подключаем классы из Shared
+using GeeksControl.Shared.Device;    // DeviceStatusCollector
+using GeeksControl.Shared.Auth;      // DeviceIdentity
+using GeeksControl.Shared.Network;   // Packet, Protocol
+
+// Подключаем SystemController для LOCK
+using GeeksControl.Agent.SystemControl; 
+
+
 
 public class AgentClient
 {
@@ -32,6 +40,8 @@ public class AgentClient
             while (true)
             {
                 var line = await reader.ReadLineAsync();
+                if (line == null) break;
+
                 var cmd = JsonSerializer.Deserialize<Packet>(line);
 
                 if (cmd.Type == "LOCK")
@@ -39,4 +49,5 @@ public class AgentClient
             }
         });
     }
+}
 }

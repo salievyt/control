@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace GeeksControl.User.SystemControl;
+namespace GeeksControl.Agent.SystemControl{
 
 public static class SystemController
 {
@@ -8,4 +8,5 @@ public static class SystemController
     {
         Process.Start("rundll32.exe", "user32.dll,LockWorkStation");
     }
+}
 }

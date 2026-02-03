@@ -1,4 +1,5 @@
 namespace GeeksControl.Shared.Auth;
+using GeeksControl.Shared.Auth;
 
 public class DeviceIdentity
 {
